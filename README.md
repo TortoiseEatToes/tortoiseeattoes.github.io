@@ -1,1 +1,1 @@
-<a href="https://tortoiseeattoes.github.io/">Deployed Page Link</a>
+<a href="https://tortoiseeattoes.github.io/" target="_blank">Deployed Page Link</a>
