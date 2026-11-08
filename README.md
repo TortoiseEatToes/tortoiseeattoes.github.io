@@ -1,3 +1,5 @@
-<a href="https://tortoiseeattoes.github.io/">
-Deployed Page Link
-</a>
+Deployed Page Home:
+https://tortoiseeattoes.github.io/
+
+Blog post explaining this site:
+https://tortoiseeattoes.github.io/blog/website-hosting-on-github
