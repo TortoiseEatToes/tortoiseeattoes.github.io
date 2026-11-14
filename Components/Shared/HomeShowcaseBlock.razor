@@ -5,9 +5,9 @@
 			@ChildContent
 		</div>
 		<MudStack Class="d-flex">
-			<MudText>Date Range: @DateRange</MudText>
-			<MudText>Platforms: @Platforms</MudText>
-			<MudText>Tools: @Tools</MudText>
+			<MudText><b>Date Range:</b> @DateRange</MudText>
+			<MudText><b>Platforms:</b> @Platforms</MudText>
+			<MudText><b>Tools:</b> @Tools</MudText>
 			@if (!string.IsNullOrEmpty(ProjectPageName))
 			{
 				<MudButton Href=@GetProjectHref() Variant=Variant.Filled Color=Color.Primary>Read More</MudButton>
