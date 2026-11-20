@@ -1,0 +1,18 @@
+﻿<BlogPost Title="Homebrew LGTM Stack" CreationDate=@CreationDate Filter=@Filter>
+	<BlogHeader>
+		<MudStack Class="mud-width-full mud-height-full">
+			<MudText>Using Unraid to host an LGTM stack on a home server</MudText>
+		</MudStack>
+	</BlogHeader>
+
+	<BlogBody>
+		<ConstructionWarning/>
+	</BlogBody>
+</BlogPost>
+
+@code {
+	[Parameter]
+	public string? Filter { get; set; }
+
+	private DateTime CreationDate = new DateTime(2026, 11, 2);
+}
